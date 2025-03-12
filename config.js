@@ -21,7 +21,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
   HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
   BRANCH: "main",
-  MODE: (process.env.MODE || 'private').toLowerCase(),
+  MODE: (process.env.MODE || 'public').toLowerCase(),
   ERROR_MSG: toBool(process.env.ERROR_MSG) || true,
   LOG_MSG: toBool(process.env.LOG_MSG) || true,
   READ_CMD: toBool(process.env.READ_CMD),
@@ -31,7 +31,7 @@ module.exports = {
   READ_MSG: toBool(process.env.READ_MSG),
   OWNER_NAME: process.env.OWNER_NAME || "Eypz God",
   BOT_NAME: process.env.BOT_NAME || "𝚰𝚭𝐔𝚳𝚰-𝚅3",
-  SUDO: process.env.SUDO || null,
+  SUDO: process.env.SUDO || 916235141427,
   LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
   STICKER_PACKNAME: process.env.STICKER_PACKNAME || "Izumi-v3,❤️",
   AUDIO_DATA: process.env.AUDIO_DATA || "Eʏᴘᴢ;Iᴢᴜᴍɪ-ᴠ3;https://i.imgur.com/cO0TZJv.jpeg",
